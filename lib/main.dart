@@ -13,7 +13,7 @@ class CalculatorApp extends StatelessWidget {
     return MaterialApp(
       title: 'Simple Calculator',
       home: CalculatorScreen(),
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
     );
   }
 }
